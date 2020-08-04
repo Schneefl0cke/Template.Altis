@@ -5,7 +5,8 @@
 [] call HEC_fnc_weather;
 
 //setup the restricted Arsenal
-["hec_arsenal"] call HEC_fnc_setupArsenal;
+["hec_arsenal_1"] call HEC_fnc_setupArsenal;
+["hec_arsenal_2"] call HEC_fnc_setupArsenal;
 
 //texture the board and the flag
 [hec_board, "images\briefingBoard.jpg"] call HEC_fnc_boardTexture;

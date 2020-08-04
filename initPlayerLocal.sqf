@@ -3,6 +3,7 @@
 
 //put the WIP loadoutmenu on the board!
 [hec_board] call HEC_fnc_addLoadoutMenu;
+[hec_computer] call HEC_fnc_addRankMenu;
 
 //wait for player object to be available.
 waitUntil {player == player};
