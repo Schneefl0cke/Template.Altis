@@ -3,11 +3,18 @@
 
 //put the WIP loadoutmenu on the board!
 [hec_board] call HEC_fnc_addLoadoutMenu;
+
+//add Rank Menu
 [hec_computer] call HEC_fnc_addRankMenu;
+
+//add parachute Action on flag
+hec_flag addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
+hec_flag addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
 
 //wait for player object to be available.
 waitUntil {player == player};
-//place your code below:
+
+//Give the player a loadout, and greet him
 [player] call HEC_fnc_prepareLoadout;
 [ ]call HEC_fnc_greeting;
 

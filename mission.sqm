@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={15179.392,19.797586,17303.545};
-		dir[]={0.62789822,-0.55210501,-0.54877633};
-		up[]={0.41578311,0.83362865,-0.36338824};
-		aside[]={-0.65815008,-3.426685e-007,-0.75305367};
+		pos[]={15196.64,32.878181,17297.07};
+		dir[]={-0.49431741,-0.60440445,0.62496829};
+		up[]={-0.3749969,0.79653251,0.4741078};
+		aside[]={0.78441668,-1.0925578e-006,0.62044168};
 	};
 };
 binarizationWanted=0;
@@ -17245,6 +17245,7 @@ class Mission
 			};
 			id=28;
 			type="Land_CampingTable_F";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17274,7 +17275,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15211.813,21.942183,17316.092};
+				position[]={15187.657,21.893208,17305.355};
 			};
 			side="Empty";
 			flags=5;
@@ -17324,7 +17325,7 @@ class Mission
 			};
 			id=31;
 			type="Box_NATO_WpsSpecial_F";
-			atlOffset=0.00040435791;
+			atlOffset=0.00040626526;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17383,6 +17384,7 @@ class Mission
 			};
 			id=87;
 			type="Box_FIA_Ammo_F";
+			atlOffset=-9.5367432e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18278,6 +18280,7 @@ class Mission
 			};
 			id=112;
 			type="Land_MapBoard_F";
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18311,13 +18314,13 @@ class Mission
 				angles[]={0.0013372133,5.7308517,0.0013372133};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				name="hec_computer";
 			};
 			id=118;
 			type="Land_Laptop_unfolded_F";
+			atlOffset=0.81559372;
 		};
 		class Item23
 		{
@@ -18454,6 +18457,7 @@ class Mission
 			};
 			id=125;
 			type="Land_CampingTable_F";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18493,6 +18497,7 @@ class Mission
 			};
 			id=126;
 			type="Land_CampingChair_V1_F";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18674,7 +18679,7 @@ class Mission
 			};
 			id=130;
 			type="MapBoard_altis_F";
-			atlOffset=1.9073486e-006;
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18716,6 +18721,7 @@ class Mission
 			};
 			id=131;
 			type="OmniDirectionalAntenna_01_sand_F";
+			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18798,6 +18804,7 @@ class Mission
 			};
 			id=134;
 			type="Land_TripodScreen_01_dual_v1_black_F";
+			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
