@@ -24,3 +24,11 @@ mmg : Heavy machine gunner
 med : Medic 
 pilot : Pilot
 crew : Vehicle Crew
+
+TODOS:
+Loadout Dialog,
+Loadouts Uniform und Waffen,
+Logistic Crates and Dialog,
+Side Relations Function,
+Leere Gruppen löschen,
+Zeus syncronisation,
