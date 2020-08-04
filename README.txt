@@ -37,10 +37,10 @@ crew : Vehicle Crew
 You can change your Rank on the Computer next to the Arsenal
 ----------------------------------------------
 
-TODOS:
+------------------ TODOS ----------------------
+Side Relation Script (Green + Red)
 Loadout Dialog,
 Loadouts Uniform und Waffen,
 Logistic Crates and Dialog,
-Side Relations Function,
 Leere Gruppen löschen,
 Zeus syncronisation,
