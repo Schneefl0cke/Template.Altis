@@ -1,5 +1,12 @@
 This is the HEC Template. It is still WIP.
 
+
+------------------ Arsenal -------------------
+This Template provides an unrestricted ACE Arsenal and an restricted Arsenal based on the chosen param for the Loadout.
+The restricted Arsenal is to help players with their choice of weapon and uniform according to the faction the mission author wants to play.
+----------------------------------------------
+
+------------------ Loadouts ------------------
 Night Vision Googles are added if your starting time is in the night hours.
 
 To add a loadout, 
@@ -24,6 +31,11 @@ mmg : Heavy machine gunner
 med : Medic 
 pilot : Pilot
 crew : Vehicle Crew
+----------------------------------------------
+
+------------------ Rank ----------------------
+You can change your Rank on the Computer next to the Arsenal
+----------------------------------------------
 
 TODOS:
 Loadout Dialog,

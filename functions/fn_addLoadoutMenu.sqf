@@ -10,7 +10,6 @@ if(!hasInterface) exitWith{};
 
 params["_target"];
 
-//_actionID = player addAction ["Exec the file", "scriptFile.sqf"]
  _target addAction ["Offizier", { [player] call HEC_fnc_opz; }];
  _target addAction ["Squadleader", { [player] call HEC_fnc_sql; }];
  _target addAction ["Fireteamleader", { [player] call HEC_fnc_ftl; }];
@@ -19,6 +18,8 @@ params["_target"];
  _target addAction ["Rifleman", { [player] call HEC_fnc_rifleman; }];
  _target addAction ["Medic", { [player] call HEC_fnc_medic; }];
 
+
+true;
 //
 // [_target, 0, ["ACE_MainActions"],
 // 	["HEC_fnc_opz", "Offizier Loadout", "", player, {true}] call ace_interact_menu_fnc_createAction] call ace_interact_menu_fnc_addActionToObject;

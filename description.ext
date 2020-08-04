@@ -90,6 +90,7 @@ class CfgFunctions
 			class greeting {file = "functions\fn_greeting.sqf";}
 			class boardTexture {file = "functions\fn_boardTexture.sqf";};
 			class addLoadoutMenu {file = "functions\fn_addLoadoutMenu.sqf";};
+			class addRankMenu {file = "functions\fn_addRankMenu.sqf";};
 			class IEDhandler {file = "functions\fn_IEDhandler.sqf";};
 
 			class prepareLoadout {file = "loadouts\fn_prepareLoadout.sqf";};
