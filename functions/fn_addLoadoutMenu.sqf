@@ -1,0 +1,34 @@
+/*
+Author: Schneeflocke
+
+WIP Solution, to get a loadout dialog on provided object
+TODO: ace menu or a loadout menu
+
+ */
+
+if(!hasInterface) exitWith{};
+
+params["_target"];
+
+//_actionID = player addAction ["Exec the file", "scriptFile.sqf"]
+ _target addAction ["Offizier", { [player] call HEC_fnc_opz; }];
+ _target addAction ["Squadleader", { [player] call HEC_fnc_sql; }];
+ _target addAction ["Fireteamleader", { [player] call HEC_fnc_ftl; }];
+ _target addAction ["Light Machine Gunner", { [player] call HEC_fnc_lmg; }];
+ _target addAction ["Grenadier", { [player] call HEC_fnc_grenadier; }];
+ _target addAction ["Rifleman", { [player] call HEC_fnc_rifleman; }];
+ _target addAction ["Medic", { [player] call HEC_fnc_medic; }];
+
+//
+// [_target, 0, ["ACE_MainActions"],
+// 	["HEC_fnc_opz", "Offizier Loadout", "", player, {true}] call ace_interact_menu_fnc_createAction] call ace_interact_menu_fnc_addActionToObject;
+
+// case "mmg": {
+// 	[_player] call HEC_fnc_mmg;};
+// case "pilot": {
+// 	[_player] call HEC_fnc_pilot;};
+// case "crew": {
+// 	[_player] call HEC_fnc_crew;};
+// case "sniper": {
+// 	[_player] call HEC_fnc_sniper;};
+// };
