@@ -14,10 +14,6 @@ hec_flag addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", 
 //wait for player object to be available.
 waitUntil {player == player};
 
-//Give the player a loadout, and greet him
-[player] call HEC_fnc_prepareLoadout;
-[ ]call HEC_fnc_greeting;
-
 //postprocessing
 //"colorCorrections" ppEffectEnable true;
 //"colorCorrections" ppEffectAdjust[ 1, 1.3, 0.001, [-0.11, -0.65, -0.76, 0.015],[-5, -1.74, 0.09, 0.86],[-1.14, -0.73, 1.14, -0.09]];
@@ -26,3 +22,9 @@ waitUntil {player == player};
 //wait until player has launched into mission:
 waitUntil {time > 0};
 //place your code below:
+
+//Give the player a loadout, and greet him
+[player] call HEC_fnc_prepareLoadout;
+
+waitUntil {time > 7};
+[ ]call HEC_fnc_greeting;

@@ -416,8 +416,7 @@ switch (_loadout) do {
 "ACE_bloodIV", "ACE_bloodIV_500", "ACE_bloodIV_250", "ACE_bodyBag", "ACE_epinephrine", "ACE_morphine", "ACE_packingBandage", "ACE_personalAidKit",
 "ACE_plasmaIV", "ACE_plasmaIV_500", "ACE_plasmaIV_250", "ACE_salineIV", "ACE_salineIV_500", "ACE_salineIV_250", "ACE_surgicalKit", "ACE_tourniquet"];
 
-_this addItem "ACE_personalAidKit";
-_this addItem "ACE_surgicalKit";
+_this addItem "adv_aceCPR_AED";
 for "_i" from 1 to 10 do {_this addItem "ACE_elasticBandage";};
 for "_i" from 1 to 10 do {_this addItem "ACE_quikclot";};
 for "_i" from 1 to 6 do {_this addItem "ACE_fieldDressing";};
