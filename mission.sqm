@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=143;
+		nextID=144;
 	};
 	class MarkerIDProvider
 	{
-		nextID=2;
+		nextID=3;
 	};
 	class Camera
 	{
-		pos[]={15206.669,23.910849,17282.885};
-		dir[]={-0.47370988,-0.15864965,0.86641651};
-		up[]={-0.076213568,0.98722941,0.13938889};
-		aside[]={0.87752986,2.7682618e-006,0.47979534};
+		pos[]={15225.941,87.012444,17265.367};
+		dir[]={-0.42760465,-0.80707633,0.40727198};
+		up[]={-0.58440667,0.59045601,0.55661941};
+		aside[]={0.68971729,4.3428736e-007,0.72415048};
 	};
 };
 binarizationWanted=0;
@@ -31,7 +31,6 @@ addons[]=
 	"A3_Modules_F",
 	"A3_Ui_F",
 	"A3_Characters_F",
-	"ace_explosives",
 	"A3_Structures_F_Civ_Lamps",
 	"A3_Structures_F_Civ_Camping",
 	"A3_Structures_F_Mil_Flags",
@@ -63,7 +62,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=22;
+		items=21;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -101,117 +100,110 @@ class AddonsMetaData
 		};
 		class Item5
 		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item6
-		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item6
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item7
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Weapons_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item9
 		{
 			className="ace_chemlights";
 			name="ace_chemlights";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item11
+		class Item10
 		{
 			className="ace_scopes";
 			name="ACE3 - Scopes";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item12
+		class Item11
 		{
 			className="ace_smallarms";
 			name="ACE3 - Small Arms";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item13
+		class Item12
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item14
+		class Item13
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item15
+		class Item14
 		{
 			className="ace_medical";
 			name="ACE3 - Medical";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item16
+		class Item15
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="acex_sitting";
 			name="ACEX - Sitting";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Enoch - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item20
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
@@ -15737,7 +15729,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=15;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15799,7 +15791,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=13;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -15862,7 +15854,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=17;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -15938,7 +15930,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=19;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16000,7 +15992,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=78;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16062,7 +16054,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=79;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16123,7 +16115,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=80;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16184,7 +16176,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=81;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16246,7 +16238,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=85;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16308,7 +16300,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=82;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16369,7 +16361,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=83;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16430,7 +16422,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=84;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16492,7 +16484,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=86;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16568,7 +16560,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=21;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16630,7 +16622,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=63;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16692,7 +16684,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=65;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16753,7 +16745,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=67;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16814,7 +16806,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=69;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16876,7 +16868,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=72;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16937,7 +16929,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=73;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16998,7 +16990,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=74;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17060,7 +17052,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=71;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17122,7 +17114,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=76;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17382,8 +17374,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15182.626,19.262894,17311.027};
-				angles[]={0.0013372133,3.8595686,0.0013372133};
+				position[]={15182.626,19.262903,17311.027};
+				angles[]={0.0013439035,3.8595686,0.0013439035};
 			};
 			side="Empty";
 			flags=4;
@@ -17392,7 +17384,6 @@ class Mission
 			};
 			id=87;
 			type="Box_FIA_Ammo_F";
-			atlOffset=-9.5367432e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17511,7 +17502,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=97;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17573,7 +17564,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=99;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17649,7 +17640,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=101;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17711,7 +17702,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=102;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17787,7 +17778,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=104;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17849,7 +17840,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=106;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17911,7 +17902,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=108;
-					type="B_soldier_F";
+					type="B_Soldier_F";
 					class CustomAttributes
 					{
 						class Attribute0
