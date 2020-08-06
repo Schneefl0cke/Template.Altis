@@ -5,7 +5,7 @@
 for "_i" from 1 to 2 do {_this addItem "ACE_tourniquet";};
 for "_i" from 1 to 2 do {_this addItem "ACE_morphine";};
 for "_i" from 1 to 2 do {_this addItem "ACE_epinephrine";};
-for "_i" from 1 to 6 do {_this addItem "ACE_elasticBandage";};
+for "_i" from 1 to 10 do {_this addItem "ACE_elasticBandage";};
 _this addItem"ACE_salineIV_500";
 
 //grenades
