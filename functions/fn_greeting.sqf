@@ -1,3 +1,5 @@
+sleep 15;
+
 //makes a nice greeting text :)
 _now = date; // current date :) [year, month, day, hour, minute]
 
