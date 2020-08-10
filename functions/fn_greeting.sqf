@@ -26,3 +26,5 @@ if(_day == 99) then
 
 //Greeting to player :)
 [missionName, worldName, format ["%1.%2.%3", _day, _month, _year]] spawn BIS_fnc_infoText;
+
+true;

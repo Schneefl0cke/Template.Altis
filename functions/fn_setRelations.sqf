@@ -44,3 +44,5 @@ if(_red == 1) then {
 if(_red == 0) then {
 	east setFriend [resistance, 0];
 	east setFriend [west, 0];};
+
+true;

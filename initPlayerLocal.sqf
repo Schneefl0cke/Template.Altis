@@ -1,7 +1,7 @@
 ﻿/////////initPlayerLocal.sqf is only executed on player clients/////////
 //////////////////////Feel free to edit below: /////////////////////////
 
-//-------------------------------------    blue setup ---------------------------
+//------------------------------------- blue setup ---------------------------
 //put the WIP loadoutmenu on the board!
 [hec_board_1] call HEC_fnc_addLoadoutMenu;
 
@@ -11,22 +11,26 @@
 //add parachute Action on flag
 hec_flag_1 addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
 hec_flag_1 addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
+//------------------------------------------------------------------------------
 
 //-------------------------------------    green setup ---------------------------
 [hec_board_2] call HEC_fnc_addLoadoutMenu;
 [hec_computer_2] call HEC_fnc_addRankMenu;
 hec_flag_2 addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
 hec_flag_2 addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
+//------------------------------------------------------------------------------
 
 //-------------------------------------    red setup ---------------------------
 [hec_board_3] call HEC_fnc_addLoadoutMenu;
 [hec_computer_3] call HEC_fnc_addRankMenu;
 hec_flag_3 addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
 hec_flag_3 addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
+//------------------------------------------------------------------------------
 
 //wait for player object to be available.
 waitUntil {player == player};
 
+//	https://forums.bohemia.net/forums/topic/210519-color-correction-theme-selections-colorblindness-post-process-effects/
 //postprocessing
 //"colorCorrections" ppEffectEnable true;
 //"colorCorrections" ppEffectAdjust[ 1, 1.3, 0.001, [-0.11, -0.65, -0.76, 0.015],[-5, -1.74, 0.09, 0.86],[-1.14, -0.73, 1.14, -0.09]];
