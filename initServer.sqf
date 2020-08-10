@@ -21,10 +21,15 @@
 ["hec_arsenal_6"] call HEC_fnc_setupArsenal;
 
 //texture the board and the flag
+//blue
 [hec_board_1, "images\briefingBoard.jpg"] call HEC_fnc_boardTexture;
 hec_flag_1 setFlagTexture "images\flag.jpg";
+
+//green
 [hec_board_2, "images\briefingBoard.jpg"] call HEC_fnc_boardTexture;
 hec_flag_2 setFlagTexture "images\flag.jpg";
+
+//red
 [hec_board_3, "images\briefingBoard.jpg"] call HEC_fnc_boardTexture;
 hec_flag_3 setFlagTexture "images\flag.jpg";
 
