@@ -261,17 +261,73 @@ class dummy_vcom {
 	default = -99999;
 	texts[] = {""};
 };
-class param_vcom
+class VcomUse
 {
 	title="Soll VCOM ai genutzt werden?";
 	values[] = {0, 1};
 	texts[] = {"Nein", "Ja"};
 	default = 0;
 };
-class param_vcomArty
+class VcomArty
 {
 	title="Soll VCOM Artillerie besser nutzen?";
 	values[] = {0, 1};
+	texts[] = {"Nein", "Ja"};
+	default = 1;
+};
+class VcomMines
+{
+	title="Mit welcher Chance so die KI Minen legen?";
+	values[] = {0, 25, 50, 75};
+	texts[] = {"Keine Minen!", "Gering", "Mittel", "Hoch"};
+	default = 0;
+};
+class VcomHearing
+{
+	title="Wie weit hört die KI Gewehrfeuer in Meter?";
+	values[] = {500, 750, 1000, 1250, 1500};
+	texts[] = {"500", "750", "1000", "1250", "1500"};
+	default = 1000;
+};
+class VcomHelp
+{
+	title="Wie weit fordert die KI Hilfe an, in Meter?";
+	values[] = {500, 750, 1000, 1250, 1500};
+	texts[] = {"500", "750", "1000", "1250", "1500"};
+	default = 1000;
+};
+class VcomDelay
+{
+	title="Wie lange dauert es bis die KI Hilfe anfordert in Sekunden?";
+	values[] = {10, 20, 30, 60};
+	texts[] = {"10", "20", "30", "60"};
+	default = 30;
+};
+class VcomSkillChange
+{
+	title="VCOM passt die KI Schwierigkeit selbstständig an.";
+	values[] = {0, 1};
+	texts[] = {"Nein", "Ja"};
+	default = 0;
+};
+class VcomStealing
+{
+	title="Stiehlt die KI Fahrzeuge?";
+	values[] = {0,1};
+	texts[] = {"Nein", "Ja"};
+	default = 0;
+};
+class VcomCargo
+{
+	title="VCOM übernimmt automatisches Auf/Absitzen";
+	values[] = {0,1};
+	texts[] = {"Nein", "Ja"};
+	default = 1;
+};
+class VcomSupress
+{
+	title="Soll VCOM versuchen die Spieler zu unterdrücken?";
+	values[] = {0,1};
 	texts[] = {"Nein", "Ja"};
 	default = 1;
 };

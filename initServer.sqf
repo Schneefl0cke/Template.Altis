@@ -1,4 +1,6 @@
 ﻿////////////////initServer.sqf is only executed on server///////////////
+//VCOM
+[] call HEC_fnc_setVCOM;
 
 //Weather and Time
 [] call HEC_fnc_time;

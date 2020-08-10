@@ -724,12 +724,3 @@ force TFAR_Teamspeak_Channel_Name = "Einsatz";
 force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
-
-//VCOM
-force Vcm_ActivateAI = false; //Set this to false to disable VcomAI. It can be set to true at any time to re-enable Vcom AI
-force VCM_SUPPRESSACTIVE = true; //Set to false to disable AI suppression system
-force VcmAI_ActiveList = []; //Leave this alone.
-force VCM_AIMagLimit = 2; //Number of mags remaining before AI looks for ammo.
-force VCM_Debug = false; //Enable debug mode.
-force VCM_MINECHANCE = 10; //Chance to lay a mine
-force VCM_LGARRISONCHANCE = 20; //Chance to perform a temporary garrison. 0 = disabled
