@@ -4,6 +4,9 @@
 [] call HEC_fnc_time;
 [] call HEC_fnc_weather;
 
+//side Relations
+[] call HEC_fnc_setRelations;
+
 //setup the restricted Arsenal
 ["hec_arsenal_1"] call HEC_fnc_setupArsenal;
 ["hec_arsenal_2"] call HEC_fnc_setupArsenal;

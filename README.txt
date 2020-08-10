@@ -37,8 +37,13 @@ crew : Vehicle Crew
 You can change your Rank on the Computer next to the Arsenal
 ----------------------------------------------
 
+------------------ Carrier ----------------------
+To use Respawn on a Carrier like the Nimitz or the Freedom, outcomment the respawn line in the init.sqf.
+----------------------------------------------
+
 ------------------ TODOS ----------------------
 Side Relation Script (Green + Red)
+More Loadouts
 Loadout Dialog,
 Loadouts Uniform und Waffen,
 Logistic Crates and Dialog,

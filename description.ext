@@ -85,6 +85,7 @@ class CfgFunctions
 	{
 		class template
 		{
+			class setRelations {file = "functions\fn_setRelations.sqf";};
 			class time {file = "functions\fn_time.sqf";};
 			class weather {file = "functions\fn_weather.sqf";};
 			class greeting {file = "functions\fn_greeting.sqf";}

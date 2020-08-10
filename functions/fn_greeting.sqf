@@ -1,3 +1,4 @@
+//Wait for players to be in the mission
 sleep 15;
 
 //makes a nice greeting text :)

@@ -1,21 +1,26 @@
 ﻿/////////initPlayerLocal.sqf is only executed on player clients/////////
 //////////////////////Feel free to edit below: /////////////////////////
 
+//-------------------------------------    blue setup ---------------------------
 //put the WIP loadoutmenu on the board!
 [hec_board_1] call HEC_fnc_addLoadoutMenu;
-[hec_board_2] call HEC_fnc_addLoadoutMenu;
-[hec_board_3] call HEC_fnc_addLoadoutMenu;
 
 //add Rank Menu
 [hec_computer_1] call HEC_fnc_addRankMenu;
-[hec_computer_2] call HEC_fnc_addRankMenu;
-[hec_computer_3] call HEC_fnc_addRankMenu;
 
 //add parachute Action on flag
 hec_flag_1 addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
 hec_flag_1 addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
+
+//-------------------------------------    green setup ---------------------------
+[hec_board_2] call HEC_fnc_addLoadoutMenu;
+[hec_computer_2] call HEC_fnc_addRankMenu;
 hec_flag_2 addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
 hec_flag_2 addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
+
+//-------------------------------------    red setup ---------------------------
+[hec_board_3] call HEC_fnc_addLoadoutMenu;
+[hec_computer_3] call HEC_fnc_addRankMenu;
 hec_flag_3 addAction ["<t color='#00ffff'>Fallschirmsprung - Solo (HALO)</t> ", "functions\fn_parajump.sqf", [false,2000,70], 6, true, true, "","alive _target"];
 hec_flag_3 addAction ["<t color='#5eff00'>Fallschirmsprung - Gruppe (HALO)</t> ", "functions\fn_parajump.sqf", [true,2000,70], 6, true, true, "","alive _target"];
 

@@ -4,11 +4,25 @@ class dummy_settings_game {
 	default = -99999;
 	texts[] = {""};
 };
-class SideRelation
+class BlueRelation
+{
+	title="Mit welcher Seite soll BLUFOR verbündet sein?";
+	values[]  = {3,2,1,0};
+	texts[] = {"Sowohl mit OPFOR, als auch mit GREENFOR","Mit GREENFOR","Mit OPFOR","Mit keiner"};
+	default = 0;
+};
+class GreenRelation
 {
 	title="Mit welcher Seite soll GREENFOR verbündet sein?";
 	values[]  = {3,2,1,0};
 	texts[] = {"Sowohl mit OPFOR, als auch mit BLUFOR","Mit OPFOR","Mit BLUFOR","Mit keiner"};
+	default = 0;
+};
+class RedRelation
+{
+	title="Mit welcher Seite soll OPFOR verbündet sein?";
+	values[]  = {3,2,1,0};
+	texts[] = {"Sowohl mit BLUEFOR, als auch mit GREENFOR","Mit GREENFOR","Mit BLUFOR","Mit keiner"};
 	default = 0;
 };
 class Civilians
