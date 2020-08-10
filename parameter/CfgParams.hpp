@@ -25,20 +25,20 @@ class RedRelation
 	texts[] = {"Sowohl mit BLUEFOR, als auch mit GREENFOR","Mit GREENFOR","Mit BLUFOR","Mit keiner"};
 	default = 0;
 };
-class Civilians
-{
-	title="Sollen automatisch Zivilisten gespawnt werden? (mapabhängige Zivilisten, nur server-/HC-seitig, nur in der Nähe von Spielern, werden automatisch gelöscht)";
-	values[] = {3,2,1,0};
-	texts[] = {"Fahrzeuge und Fußgänger","Nur Fahrzeuge","Nur Fußgänger","Nein"};
-	default = 0;
-};
-class EngineArtillery
-{
-	title="Soll der Artillerie-Computer deaktiviert werden?";
-	values[] = {1,0};
-	texts[] = {"Ja","Nein"};
-	default = 0;
-};
+// class Civilians
+// {
+// 	title="Sollen automatisch Zivilisten gespawnt werden? (mapabhängige Zivilisten, nur server-/HC-seitig, nur in der Nähe von Spielern, werden automatisch gelöscht)";
+// 	values[] = {3,2,1,0};
+// 	texts[] = {"Fahrzeuge und Fußgänger","Nur Fahrzeuge","Nur Fußgänger","Nein"};
+// 	default = 0;
+// };
+// class EngineArtillery
+// {
+// 	title="Soll der Artillerie-Computer deaktiviert werden?";
+// 	values[] = {1,0};
+// 	texts[] = {"Ja","Nein"};
+// 	default = 0;
+// };
 class dummy_environment {
 	title = "---------------------- Umweltparameter ----------------------";
 	values[] = {-99999};
