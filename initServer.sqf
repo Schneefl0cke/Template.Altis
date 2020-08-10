@@ -8,10 +8,15 @@
 [] call HEC_fnc_setRelations;
 
 //setup the restricted Arsenal
+//blue
 ["hec_arsenal_1"] call HEC_fnc_setupArsenal;
 ["hec_arsenal_2"] call HEC_fnc_setupArsenal;
+
+//ind
 ["hec_arsenal_3"] call HEC_fnc_setupArsenal;
 ["hec_arsenal_4"] call HEC_fnc_setupArsenal;
+
+//red
 ["hec_arsenal_5"] call HEC_fnc_setupArsenal;
 ["hec_arsenal_6"] call HEC_fnc_setupArsenal;
 
