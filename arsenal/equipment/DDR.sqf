@@ -2,28 +2,29 @@
 _crate = missionNamespace getVariable [_arsenalContainer , objNull];
 
 _loadout = [
-	"U_B_CombatUniform_mcam","U_B_CombatUniform_mcam_tshirt","U_B_CombatUniform_mcam_vest","U_B_GhillieSuit","U_B_HeliPilotCoveralls","U_B_SpecopsUniform_sgg","U_B_PilotCoveralls","U_B_CTRG_1","U_B_CTRG_2","U_B_CTRG_3",
-	"V_PlateCarrier1_rgr","V_PlateCarrier2_rgr","V_PlateCarrier3_rgr","V_PlateCarrierGL_rgr","V_PlateCarrier1_blk","V_PlateCarrierSpec_rgr","V_PlateCarrierL_CTRG","V_PlateCarrierH_CTRG",
-	"H_HelmetB","H_HelmetB_camo","H_HelmetB_paint","H_HelmetB_light","H_Booniehat_mcamo","H_Booniehat_tan","H_HelmetB_plain_mcamo","H_HelmetB_plain_blk","H_HelmetSpecB","H_HelmetSpecB_paint1","H_HelmetSpecB_paint2","H_HelmetSpecB_paint2",
-	"H_HelmetCrew_B","H_PilotHelmetFighter_B","H_MilCap_mcamo","H_Beret_02","H_Beret_Colonel","H_Watchcap_blk","H_Watchcap_khk","H_Watchcap_camo",
-	"B_AssaultPack_rgr","B_AssaultPack_mcamo","B_Kitbag_rgr","B_Kitbag_mcamo","B_TacticalPack_blk","B_TacticalPack_mcamo",
+	"gm_gc_army_uniform_soldier_80_blk","gm_gc_army_uniform_dress_80_gry","gm_gc_army_uniform_soldier_80_win",
+	"gm_gc_army_uniform_soldier_80_str",
 
-	"launch_NLAW_F", "NLAW_F", "launch_B_Titan_F", "Titan_AA", "launch_Titan_F", "launch_B_Titan_short_F","launch_I_Titan_short_F","launch_Titan_short_F","Titan_AT", "Titan_AP",
-	"srifle_LRR_F","srifle_LRR_SOS_F", "srifle_LRR_LRPS_F","7Rnd_408_Mag",
-	"LMG_Mk200_F", "200Rnd_65x39_cased_Box", "200Rnd_65x39_cased_Box_Tracer","200Rnd_65x39_cased_Box_Red","200Rnd_65x39_cased_Box_Tracer_Red",
-	"hgun_ACPC2_F", "9Rnd_45ACP_Mag",
-	"srifle_EBR_F","20Rnd_762x51_Mag",
-	"srifle_DMR_03_F", "srifle_DMR_03_tan_F", "srifle_DMR_03_multicam_F",
-	"MMG_02_camo_F", "MMG_02_black_F", "MMG_02_sand_F", "130Rnd_338_Mag",
-	"arifle_MXC_F", "arifle_MX_F", "arifle_MX_GL_F", "arifle_MX_SW_F", "arifle_MXM_F", 
-	"30Rnd_65x39_caseless_mag", "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F","UGL_FlareGreen_F","UGL_FlareRed_F","UGL_FlareYellow_F","UGL_FlareCIR_F","1Rnd_Smoke_Grenade_shell","1Rnd_SmokeRed_Grenade_shell",
-	"1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeYellow_Grenade_shell","1Rnd_SmokePurple_Grenade_shell","1Rnd_SmokeBlue_Grenade_shell","1Rnd_SmokeOrange_Grenade_shell","3Rnd_HE_Grenade_shell","3Rnd_UGL_FlareWhite_F",
-	"3Rnd_UGL_FlareGreen_F","3Rnd_UGL_FlareRed_F","3Rnd_UGL_FlareYellow_F","3Rnd_UGL_FlareCIR_F","3Rnd_Smoke_Grenade_shell","3Rnd_SmokeRed_Grenade_shell","3Rnd_SmokeGreen_Grenade_shell","3Rnd_SmokeYellow_Grenade_shell",
-	"3Rnd_SmokePurple_Grenade_shell","3Rnd_SmokeBlue_Grenade_shell","3Rnd_SmokeOrange_Grenade_shell",
-	"SMG_01_F","30Rnd_45ACP_Mag_SMG_01","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow",
+	"gm_gc_army_vest_80_at_str", "gm_gc_army_vest_80_belt_str", "gm_gc_army_vest_80_leader_str", "gm_gc_army_vest_80_lmg_str", "gm_gc_army_vest_80_rifleman_str", "gm_gc_bgs_vest_80_border_str",
 
-	"muzzle_snds_H","muzzle_snds_L","muzzle_snds_B","optic_Hamr","optic_Aco","optic_Aco_smg","optic_Holosight","optic_Holosight_smg","optic_SOS","acc_pointer_IR","optic_MRCO",
-	"optic_NVS","optic_Nightstalker","optic_tws", "optic_tws_mg", "optic_DMS", "optic_LRPS"
+	"gm_gc_army_headgear_hat_80_grn",
+	"gm_gc_army_headgear_cap_80_gry", "gm_gc_army_headgear_crewhat_80_blk", "gm_gc_army_headgear_m56", "gm_gc_army_headgear_m56_cover_str", "gm_gc_army_headgear_m56_cover_win", "gm_gc_army_headgear_m56_net","gm_gc_bgs_headgear_hat_80_gry",
+
+	"gm_gc_army_facewear_schm41m", "gm_gc_army_facewear_dustglasses",
+	"gm_gc_army_backpack_80_at_str", "gm_gc_army_backpack_80_lmg_str", "gm_gc_army_backpack_80_assaultpack_str", "gm_gc_army_backpack_80_assaultpack_lmg_str", "gm_fagot_launcher_weaponBag",
+
+	"gm_hmgpkm_prp", "gm_100rnd_762x54mm_b_t_t46_pk_grn","gm_100rnd_762x54mm_api_b32_pk_grn",
+	"gm_lmgrpk74n_prp", "gm_30rnd_545x39mm_b_7n6_ak74_prp","gm_30rnd_545x39mm_b_t_7t3_ak74_prp","gm_30rnd_545x39mm_b_7n6_ak74_org","gm_30rnd_545x39mm_b_t_7t3_ak74_org","gm_45rnd_545x39mm_b_7n6_ak74_prp","gm_45rnd_545x39mm_b_t_7t3_ak74_prp","gm_45rnd_545x39mm_b_7n6_ak74_org",
+	"gm_rpk_wud", "gm_lmgrpk_prp","gm_30rnd_762x39mm_b_m43_ak47_blk","gm_30rnd_762x39mm_b_t_m43_ak47_blk","gm_75rnd_762x39mm_b_m43_ak47_blk","gm_75rnd_762x39mm_b_t_m43_ak47_blk",
+	"gm_mpiak74n_brn","gm_mpiaks74nk_brn","gm_mpiaks74n_brn", "gm_45rnd_545x39mm_b_t_7t3_ak74_org",
+	"gm_mpikm72_brn", "gm_akm_wud", "gm_akmn_wud", "gm_mpikms72_brn",
+	"gm_svd_wud", "gm_10Rnd_762x54mmR_ap_7n1_svd_blk","gm_10Rnd_762x54mmR_api_7bz3_svd_blk","gm_10Rnd_762x54mmR_b_t_7t2_svd_blk",
+
+	"gm_rpg7_prp", "gm_1rnd_40mm_heat_pg7v_rpg7", "gm_1rnd_40mm_heat_pg7vl_rpg7",
+	"gm_9k32m_oli", "gm_1Rnd_72mm_he_9m32m",
+
+	"gm_mine_at_dm21","gm_mine_at_tm46", "gm_mine_ap_dm31", "gm_explosive_petn_charge", "gm_explosive_plnp_charge",
+	"gm_feroz24_blk", "gm_c79a1_blk", "gm_pso1_gry", "gm_zfk4x25_blk", "gm_feroz2x17_pzf44_2_blk", "gm_feroz2x17_pzf84_blk", "gm_pgo7v_blk", "gm_suppressor_safloryt_blk"
 ];
 
 //Populate with predefined items and whatever is already in the crate
