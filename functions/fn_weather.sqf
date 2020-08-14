@@ -2,6 +2,7 @@
 if (!isServer) exitWith {};
 
 _weatherValue = "Weather" call BIS_fnc_getParamValue;
+if (_weatherValue == 99) exitWith {};
 
 private _weatherArray = switch (_weatherValue) do {
 	case 1: {["sunny",0, 0, [0, 0, 0], [1-(random 2), 1-(random 2), true], 0, 0.3]}; //sunny

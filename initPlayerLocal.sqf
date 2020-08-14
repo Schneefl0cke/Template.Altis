@@ -1,6 +1,31 @@
 ﻿/////////initPlayerLocal.sqf is only executed on player clients/////////
 //////////////////////Feel free to edit below: /////////////////////////
 
+//------------------------------------- respawn helper setup ---------------------------
+//moves the player to position of object called "respawn_helper", if it's present (for Nimitz for example):
+call {
+	if (side player == east && !isNil "respawn_helper_east") exitWith {
+		player addEventhandler ["RESPAWN",{
+			player setPosATL (getPosATL respawn_helper_east);
+			player setDir (getDir respawn_helper_east);
+		}];
+	};
+	if (side player == independent && !isNil "respawn_helper_independent") exitWith {
+		player addEventhandler ["RESPAWN",{
+			player setPosATL (getPosATL respawn_helper_independent);
+			player setDir (getDir respawn_helper_independent);
+		}];
+	};
+	if (!isNil "respawn_helper") exitWith {
+		player addEventhandler ["RESPAWN",{
+			player setPosATL (getPosATL respawn_helper);
+			player setDir (getDir respawn_helper);
+		}];
+	};
+};
+
+//------------------------------------------------------------------------------
+
 //------------------------------------- blue setup ---------------------------
 //put the WIP loadoutmenu on the board!
 [hec_board_1] call HEC_fnc_addLoadoutMenu;

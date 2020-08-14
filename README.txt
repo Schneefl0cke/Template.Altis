@@ -38,7 +38,7 @@ You can change your Rank on the Computer next to the Arsenal
 ----------------------------------------------
 
 ------------------ Carrier ----------------------
-To use Respawn on a Carrier like the Nimitz or the Freedom, outcomment the respawn line in the init.sqf.
+To use Respawn on a Carrier like the Nimitz or the Freedom, place an object called respawn_helper/respawn_helper_east/respawn_helper_independent
 ----------------------------------------------
 
 ------------------ TODOS ----------------------
