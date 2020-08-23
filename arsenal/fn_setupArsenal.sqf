@@ -43,8 +43,8 @@ case 12: {[_arsenalContainer] execVM "arsenal\equipment\USA.sqf";};
 case 13: {[_arsenalContainer] execVM "arsenal\equipment\USA.sqf";};
 
 //CUP Bundeswehr - TODO
-case 21: {[_arsenalContainer] execVM "arsenal\equipment\USA.sqf";};
-case 22: {[_arsenalContainer] execVM "arsenal\equipment\USA.sqf";};
+case 21: {[_arsenalContainer] execVM "arsenal\equipment\Bundeswehr.sqf";};
+case 22: {[_arsenalContainer] execVM "arsenal\equipment\Bundeswehr.sqf";};
 
 //Vanilla AAF/LDF - TODO
 case 100: {[_arsenalContainer] execVM "arsenal\equipment\Ind_Vanilla.sqf";};

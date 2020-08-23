@@ -127,7 +127,17 @@ _loadout = [
 "rhs_acc_1pn93_2",
 
 	"muzzle_snds_H","muzzle_snds_L","muzzle_snds_B","optic_Hamr","optic_Aco","optic_Aco_smg","optic_Holosight","optic_Holosight_smg","optic_SOS","acc_pointer_IR","optic_MRCO",
-	"optic_NVS","optic_Nightstalker","optic_tws", "optic_tws_mg", "optic_DMS", "optic_LRPS"
+	"optic_NVS","optic_Nightstalker","optic_tws", "optic_tws_mg", "optic_DMS", "optic_LRPS",
+
+	"U_NikosBody", "U_IG_Guerilla1_1", "U_IG_Guerilla2_1", "U_IG_Guerilla2_2", "U_IG_Guerilla2_3", "U_IG_Guerilla3_1", "U_IG_Guerilla3_2", "U_IG_leader", "U_BG_Guerilla1_1",
+	"U_BG_Guerilla2_1", "U_BG_Guerilla2_2", "U_BG_Guerilla2_3", "U_BG_Guerilla3_1", "U_BG_Guerilla3_2", "U_BG_leader", "U_OG_Guerilla1_1", "U_OG_Guerilla2_1", "U_OG_Guerilla2_2", "U_OG_Guerilla2_3",
+	"U_OG_Guerilla3_1", "U_OG_Guerilla3_2", "U_OG_leader",
+
+	"V_BandollierB_khk", "V_BandollierB_cbr", "V_BandollierB_rgr", "V_BandollierB_blk", "V_BandollierB_oli", "V_Chestrig_khk", "V_Chestrig_rgr", "V_Chestrig_blk", "V_Chestrig_oli",
+	"V_TacVest_khk", "V_TacVest_brn", "V_TacVest_oli", "V_TacVest_blk", "V_TacVest_camo",
+
+	"H_Booniehat_khk", "H_Booniehat_grn", "H_Booniehat_tan", "H_Cap_blk", "H_Cap_khaki_specops_UK", "H_MilCap_oucamo", "H_MilCap_rucamo", "H_Bandanna_khk", "H_Bandanna_cbr", "H_Bandanna_sgg",
+	"H_Bandanna_gry", "H_Bandanna_camo", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "H_Beret_blk"
 ];
 
 //Populate with predefined items and whatever is already in the crate

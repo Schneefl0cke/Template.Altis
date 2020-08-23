@@ -374,6 +374,29 @@ switch (_loadout) do {
 		for "_i" from 1 to 8 do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 	};
 
+	//DDR
+	case 213:{
+		//Uniform
+		_uniform = selectRandom ["gm_gc_army_uniform_soldier_80_str"];
+		_this forceAddUniform _uniform;
+		_vest = selectRandom ["gm_gc_army_vest_80_rifleman_str"];
+		_this addVest _vest;
+		_headgear = selectRandom ["gm_gc_army_headgear_m56_net","gm_gc_army_headgear_m56_cover_str","gm_gc_army_headgear_m56"];
+		_this addHeadgear _headgear;
+
+		//Mütze, Gasmask, Backpack
+		_this addItem "gm_gc_army_headgear_hat_80_grn";
+		_this addItem "gm_gc_army_facewear_schm41m";
+		_this addBackpack "gm_gc_army_backpack_80_assaultpack_str";
+
+		//Weapons
+		_primaryweapon = selectRandom ["gm_mpikm72_brn"];
+		_this addWeapon _primaryweapon;
+
+		//Ammo
+		for "_i" from 1 to _magazines do {_this addMagazine "gm_30rnd_762x39mm_b_m43_ak47_blk";};
+	};
+
 	//NATO
 	default {
 		//Uniform
