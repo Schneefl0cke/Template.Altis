@@ -86,7 +86,7 @@ class Weather
 	4,5,6,
 	7,8,9};
 	texts[] = {
-	"Keine Veränderung", 
+	"Missionseinstellung", 
 	"Sonnig", "Klar", "Bewölkt", 
 	"Leichter Regen", "Mittlerer Regen", "Schwerer Regen",
 	"Leichter Nebel", "Mittlerer Nebel", "Dichter Nebel"};

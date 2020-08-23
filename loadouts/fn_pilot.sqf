@@ -197,7 +197,7 @@ switch (_loadout) do {
 		_this addHandgunItem "11Rnd_45ACP_Mag";
 
 		//Ammo
-		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_762x39mm";};
+		for "_i" from 1 to 8 do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 	};
 	
 	//111 PMC
@@ -220,8 +220,9 @@ switch (_loadout) do {
 		_this addWeapon "hgun_Pistol_heavy_01_MRD_F";
 		_this addHandgunItem "optic_MRD";
 		_this addHandgunItem "11Rnd_45ACP_Mag";
+
 		//Ammo
-		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_762x39mm";};
+		for "_i" from 1 to 8 do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 	};
 
 	//Africa

@@ -196,9 +196,8 @@ switch (_loadout) do {
 		//backpacks: ["CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki","CUP_B_AlicePack_OD"];
 
 		//Weapons
-		_primaryweapon = selectRandom ["rhs_weap_ak74m_gp25"];
+		_primaryweapon = selectRandom ["rhs_weap_ak74m","rhs_weap_ak74m_camo","rhs_weap_ak74m_desert","rhs_weap_ak74m_plummag","rhs_weap_ak74m_2mag","rhs_weap_ak74m_2mag_camo"];
 		_this addWeapon _primaryweapon;
-		_optic = selectRandom ["rhs_acc_pso1m2","rhs_acc_pso1m2","rhs_acc_pso1m2","rhs_acc_1p29"];
 		_this addPrimaryWeaponItem _optic;
 		_this addPrimaryWeaponItem "hgun_Pistol_heavy_01_F";
 		_this addWeapon "hgun_Pistol_heavy_01_MRD_F";
@@ -206,7 +205,7 @@ switch (_loadout) do {
 		_this addHandgunItem "11Rnd_45ACP_Mag";
 
 		//Ammo
-		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_762x39mm";};
+		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 		for "_i" from 1 to _ulg do {_this addMagazine "1Rnd_HE_Grenade_shell";};
 	};
 	
@@ -222,9 +221,8 @@ switch (_loadout) do {
 		//backpacks: ["CUP_B_AlicePack_Bedroll","CUP_B_AlicePack_Khaki","CUP_B_AlicePack_OD"];
 
 		//Weapons
-		_primaryweapon = selectRandom ["rhs_weap_ak74m_gp25"];
+		_primaryweapon = selectRandom ["rhs_weap_ak74m","rhs_weap_ak74m_camo","rhs_weap_ak74m_desert","rhs_weap_ak74m_plummag","rhs_weap_ak74m_2mag","rhs_weap_ak74m_2mag_camo"];
 		_this addWeapon _primaryweapon;
-		_optic = selectRandom ["rhs_acc_pso1m2","rhs_acc_pso1m2","rhs_acc_pso1m2","rhs_acc_1p29"];
 		_this addPrimaryWeaponItem _optic;
 		_this addPrimaryWeaponItem "hgun_Pistol_heavy_01_F";
 		_this addWeapon "hgun_Pistol_heavy_01_MRD_F";
@@ -232,7 +230,7 @@ switch (_loadout) do {
 		_this addHandgunItem "11Rnd_45ACP_Mag";
 
 		//Ammo
-		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_762x39mm";};
+		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 		for "_i" from 1 to _ulg do {_this addMagazine "1Rnd_HE_Grenade_shell";};
 	};
 

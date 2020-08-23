@@ -209,7 +209,7 @@ switch (_loadout) do {
 		_this addHandgunItem "11Rnd_45ACP_Mag";
 
 		//Ammo
-		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_762x39mm";};
+		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 		for "_i" from 1 to _ulg do {_this addMagazine "1Rnd_HE_Grenade_shell";};
 	};
 	
@@ -235,7 +235,7 @@ switch (_loadout) do {
 		_this addHandgunItem "11Rnd_45ACP_Mag";
 
 		//Ammo
-		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_762x39mm";};
+		for "_i" from 1 to _magazines do {_this addMagazine "rhs_30Rnd_545x39_7N10_AK";};
 		for "_i" from 1 to _ulg do {_this addMagazine "1Rnd_HE_Grenade_shell";};
 	};
 
