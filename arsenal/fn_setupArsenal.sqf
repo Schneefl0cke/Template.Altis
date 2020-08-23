@@ -69,9 +69,9 @@ case 210: {[_arsenalContainer] execVM "arsenal\equipment\RU.sqf";};
 case 211: {[_arsenalContainer] execVM "arsenal\equipment\RU.sqf";};
 case 212: {[_arsenalContainer] execVM "arsenal\equipment\RU.sqf";};
 
-//GM BDR- TODO
+//GM BDR
 case 23: {[_arsenalContainer] execVM "arsenal\equipment\BRD.sqf";};
-//GM DDR- TODO
+//GM DDR
 case 213: {[_arsenalContainer] execVM "arsenal\equipment\DDR.sqf";};
 
 };

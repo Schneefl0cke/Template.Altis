@@ -153,6 +153,29 @@ switch (_loadout) do {
 		for "_i" from 1 to _magazines do {_this addMagazine "rhsusf_200Rnd_556x45_soft_pouch";};
 	};
 
+	//GM BDR
+	case 23: {
+		//Uniform
+		_uniform = selectRandom ["gm_ge_army_uniform_soldier_80_oli","gm_ge_army_uniform_soldier_80_ols","gm_ge_army_uniform_soldier_parka_80_oli","gm_ge_army_uniform_soldier_parka_80_ols"];
+		_this forceAddUniform _uniform;
+		_vest = selectRandom ["gm_ge_army_vest_80_machinegunner"];
+		_this addVest _vest;
+		_headgear = selectRandom ["gm_ge_headgear_m62_net","gm_ge_headgear_m62"];
+		_this addHeadgear _headgear;
+
+		//Mütze, Gasmask, Backpack
+		_this addItem "gm_ge_headgear_beret_grn";
+		_this addItem "gm_ge_facewear_m65";
+		_this addBackpack "gm_ge_army_backpack_80_oli";
+
+		//Weapons
+		_primaryweapon = selectRandom ["gm_mg3_blk"];
+		_this addWeapon _primaryweapon;
+
+		//Ammo
+		for "_i" from 1 to 8 do {_this addMagazine "gm_120rnd_762x51mm_b_t_dm21_mg3_grn";};
+	};
+
 	//AAF
 	case 100 : {
 		//Uniform
@@ -379,7 +402,7 @@ switch (_loadout) do {
 		//Ammo
 		for "_i" from 1 to _magazines do {_this addMagazine "gm_75rnd_762x39mm_b_m43_ak47_blk";};
 	};
-	
+
 	//NATO
 	default {
 		//Uniform

@@ -15,7 +15,7 @@ _target addAction ["Loadout: Squadleader", { [player] call HEC_fnc_sql; }];
 _target addAction ["Loadout: Fireteamleader", { [player] call HEC_fnc_ftl; }];
 _target addAction ["Loadout: Light Machine Gunner", { [player] call HEC_fnc_lmg; }];
 _target addAction ["Loadout: Grenadier", { [player] call HEC_fnc_grenadier; }];
-_target addAction ["Loadout: Rifleman", { [player] call HEC_fnc_rifleman; }];
+_target addAction ["Loadout: Rifleman AT", { [player] call HEC_fnc_rifleman; }];
 _target addAction ["Loadout: Medic", { [player] call HEC_fnc_medic; }];
 _target addAction ["Loadout: Pilot", { [player] call HEC_fnc_pilot; }];
 
