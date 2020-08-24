@@ -113,8 +113,8 @@ class Loadouts
 	texts[] = {
 		"NATO", "NATO - Apex", "CTRG",
 		"USA - MARPAT (RHS)", "USA - UCP (RHS)", "USA - OCP (RHS)", "USA - Vietnam (CUP)",
-		"Bundeswehr - Flecktarn (CUP)", "Bundeswehr - Tropen (CUP)", "GM - Frühe Bundeswehr",
-		"AAF", "LDV",
+		"Bundeswehr - Flecktarn (CUP) (unfertig!)", "Bundeswehr - Tropen (CUP) (unfertig!)", "GM - Frühe Bundeswehr",
+		"AAF", "LDV (unfertig!)",
 		"Guerilla", "PMC", "African Army (CUP)", "Taliban (CUP)",
 		"CSAT", "CSAT - Apex",
 		"RU - Summer (RHS)", "GM - DDR"

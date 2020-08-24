@@ -5,11 +5,11 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Author = "HEC";
-OnLoadName = "HEC Missiontemplate WIP";
+OnLoadName = "HEC Missiontemplate NEU";
 OnLoadIntro = "";
 OnLoadMission = "";
 loadscreen = "images\loadscreen.paa";
-briefingName = "HEC Missiontemplate WIP";
+briefingName = "HEC Missiontemplate NEU";
 overviewPicture = "images\loadscreen.paa";
 overviewText = "Have Fun!";
 scriptedPlayer = 1;
@@ -126,12 +126,3 @@ class cfgRemoteExec
 		class BIS_fnc_execVM {};
 	};
 };
-
-
-//------------------------------------------------ DIALOGUES --------------------------------------------------------------//
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
-#include "functions\gear\internal\loadoutDialog.hpp"
-#include "functions\logistic\internal\logisticDialog.hpp"
-#include "functions\client\internal\teleportDialog.hpp"
-*/
